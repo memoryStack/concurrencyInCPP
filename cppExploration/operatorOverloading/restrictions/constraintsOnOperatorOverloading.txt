@@ -1,0 +1,16 @@
+1. An operator function must have at least one function parameter or implicit object parameter whose type
+    is a class, a reference to a class, an enumeration, or a reference to an enumeration.
+
+2. The operators :: (scope resolution), . (member access), .* (member access through pointer to member), and
+    ?: (ternary conditional) cannot be overloaded.
+
+3. New operators such as **, <>, or &| cannot be created.
+
+4. It is not possible to change the precedence, grouping, or number of operands of operators.
+
+5. The overload of operator -> must either return a raw pointer, or return an object (by reference or by value)
+    for which operator -> is in turn overloaded.
+
+6. The overloads of operators && and || lose short-circuit evaluation.
+    &&, ||, and , lose their special sequencing properties when overloaded and behave like regular function calls
+    even when they are used without function-call notation.

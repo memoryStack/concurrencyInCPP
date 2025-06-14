@@ -1,0 +1,95 @@
+
+
+Assignment operator
+    a = b
+    a += b
+    a -= b
+    a *= b
+    a /= b
+    a %= b
+    a &= b
+    a |= b
+    a ^= b
+    a <<= b
+    a >>= b
+
+Stream extraction and insertion
+
+
+Increment and decrement
+    ++a
+    --a
+    a++
+    a--
+
+logical operators
+    !a
+    a && b
+    a || b
+
+
+Comparison operators
+    a == b
+    a != b
+    a < b
+    a > b
+    a <= b
+    a >= b
+    a <=> b
+
+Arithmetic operators
+    +a
+    -a
+    a + b
+    a - b
+    a * b
+    a / b
+    a % b
+    ~a
+    a & b
+    a | b
+    a ^ b
+    a << b
+    a >> b
+
+
+Bitwise arithmetic operators
+
+
+member access operators
+    a[...]
+    *a
+    &a
+    a->b
+    a.b
+    a->*b
+    a.*b
+
+function call
+    a(...)
+
+comma
+    a, b
+
+conditional
+    a ? b : c
+
+Rarely overloaded operators
+    a. address-of operator
+    b. boolean logic operators, operator&& and operator||
+    c. comma operator, operator,
+    d. The member access through pointer to member operator->*
+
+Special operators
+    static_cast
+    dynamic_cast
+    const_cast
+    reinterpret_cast
+    C-style cast
+    new
+    delete
+    sizeof
+    sizeof...
+    typeid
+    noexcept
+    alignof
